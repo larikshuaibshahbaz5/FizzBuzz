@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(){
+	int n, i;
+	for(i=0;i<=5;i++){
+	printf("enter the value of n : \n");
+	scanf("%d",&n);
+	
+	if(n % 3  == 0 && n % 5  == 0){
+		printf("fizzBuzz\n");
+	} else if (n % 3 == 0 && n % 5  != 0){
+		printf("fizz\n");
+	}  else if (n % 3 != 0 && n % 5  == 0){
+		printf("Buzz\n");
+    }
+	else (n % 3 != 0 && n % 5  != 0);{
+		printf ("%d\n",i);
+	} 
+	} 
+	return 0;
+}
